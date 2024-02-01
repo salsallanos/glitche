@@ -11,6 +11,9 @@ const Footer = () => {
         <a target="_blank" href="https://www.instagram.com/camilollanos1/">
           <span className="ion ion-social-instagram-outline" />
         </a>
+        <a target="_blank" href="https://www.linkedin.com/in/juan-camilo-llanos-68a698135/">
+          <span className="ion ion-social-linkedin" />
+        </a>
       </div>
       <div className="copy">
         © {new Date().getFullYear()} Camilo Llanos. All rights reserved.
