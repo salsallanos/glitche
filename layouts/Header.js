@@ -17,7 +17,7 @@ const Header = ({ dark }) => {
   return (
     <header className={toggle ? "active" : ""}>
       <div className="head-top">
-        <a href="#" className="menu-btn" onClick={(e) => onClick(e)}>
+        <a href="#" className="menu-btn" aria-label="Menu Button" onClick={(e) => onClick(e)}>
           <span />
         </a>
         <div className="logo">
